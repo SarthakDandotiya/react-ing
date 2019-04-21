@@ -13,10 +13,15 @@ class App extends Component {
 		]
 	};
 
-	constructor(props) {
-		super(props);
+	constructor() {
+		super();
 		console.log('App - Constructor');
-		this.state = this.props.something;
+	}
+
+	componentDidMount() {
+		// AJAX call
+		// this.setState({ pass_obj_with_data })
+		console.log('App - Mounted');
 	}
 
 	handleIncrement = counter => {
@@ -40,6 +45,8 @@ class App extends Component {
 		this.setState({ counters: counters });
 	};
 	render() {
+		console.log('App - Rendered');
+
 		return (
 			<React.Fragment>
 				<Navbar
