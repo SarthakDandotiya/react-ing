@@ -19,8 +19,6 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		// AJAX call
-		// this.setState({ pass_obj_with_data })
 		console.log('App - Mounted');
 	}
 
