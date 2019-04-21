@@ -1,4 +1,5 @@
-# React Crash Course [Mosh]
+# React Crash Course
+Learning React from one of the suggested free courses at [reactjs.org](https://reactjs.org/community/courses.html)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
